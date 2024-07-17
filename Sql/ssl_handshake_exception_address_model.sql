@@ -1,0 +1,17 @@
+create table if not exists ssl_handshake_exception_address_model(
+key_store_file_name Integer not null,
+fies_match varchar(255) null,
+directory_path varchar(255) null,
+balance_member1 varchar(255) null,
+balance_member2 varchar(255) null,
+balance_member3 varchar(255) null,
+balance_member4 varchar(255) null,
+balance_member5 varchar(255) null,
+proxy_balancer varchar(255) null,
+proxy_pass_match varchar(255) null,
+proxy_pass varchar(255) null,
+proxy_pass_reverse varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint ssl_handshake_exception_address_model_pk primary key(key_store_file_name));

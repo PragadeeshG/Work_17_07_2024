@@ -1,0 +1,15 @@
+create table if not exists ssl_handshake_exception_info_model(
+key_store_file_name Integer not null,
+company_name varchar(255) null,
+main_info varchar(255) null,
+key_store_status varchar(255) null,
+prod_value varchar(255) null,
+non_prod_value varchar(255) null,
+ss_iproxy_engine varchar(255) null,
+ss_iproxy_verify varchar(255) null,
+ss_iproxy_check_peer_cn varchar(255) null,
+ss_iproxy_check_peer_name varchar(255) null,
+proxy_requests varchar(255) null,
+proxy_timeout varchar(255) null,
+modified_date varchar(255) null,
+constraint ssl_handshake_exception_info_model_pk primary key(key_store_file_name));
